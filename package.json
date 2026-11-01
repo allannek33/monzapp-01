@@ -1,0 +1,14 @@
+{
+  "name": "monzapp-01",
+  "version": "1.0.0",
+  "private": true,
+  "description": "MONZAPP — Discover • Validate • Create",
+  "cloudflare": {
+    "label": "MONZAPP",
+    "products": ["Workers", "D1"],
+    "bindings": {
+      "ADMIN_CODE": { "description": "Ton code administrateur secret (12 caractères minimum). Il te servira à activer l'accès administrateur. Note-le en lieu sûr." },
+      "DB": { "description": "Base de données MONZAPP : créée automatiquement par Cloudflare." }
+    }
+  }
+}
